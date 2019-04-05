@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Dash Wieland</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Dash Wieland</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Seasonality in Seattle Bike Traffic</title>
+      <link>/1/01/01/seasonality-in-seattle-bike-traffic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/seasonality-in-seattle-bike-traffic/</guid>
+      <description>Weekly bike traffic in Seattle This week’s #TidyTuesday dataset is bike traffic in Seattle. Interestingly, this isn’t geographic data-though we could add that by finding the coordinates of the counting stations-so instead I thought it might be interesting to capture the seasonality of bike traffic at different counting stations.
+Start by loading the required packages and downloading the data from GitHub.
+library(dplyr) library(lubridate) library(ggplot2) library(RColorBrewer) bike_traffic &amp;lt;- readr::read_csv(&amp;quot;https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-04-02/bike_traffic.csv&amp;quot;, col_types = &amp;#39;cccdd&amp;#39;)   Prepping data for plotting Formatting dates with lubridate The first thing to do is get our dates in a workable format.</description>
+    </item>
+    
+  </channel>
+</rss>
